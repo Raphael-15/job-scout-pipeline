@@ -21,10 +21,22 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
       
+      - name: Verify config files exist
+        run: |
+          echo "Checking for required config files..."
+          ls -la config/
+          ls -la src/
+      
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip list
+      
+      - name: Create data directory
+        run: |
+          mkdir -p data
+          touch job_scout.log
       
       - name: Run job scraper
         env:
@@ -32,9 +44,19 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
         run: |
-          python src/job_scraper.py
+          python -u src/job_scraper.py 2>&1 | tee -a job_scout.log
+      
+      - name: Show results
+        if: always()
+        run: |
+          echo "=== JOB SCOUT LOG ==="
+          cat job_scout.log
+          echo ""
+          echo "=== DATA FILES ==="
+          ls -la data/ || echo "No data files created"
       
       - name: Commit changes
+        if: success()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Job Scout Bot"
@@ -42,12 +64,13 @@ jobs:
           git diff --quiet && git diff --staged --quiet || git commit -m "Update job database - $(date '+%Y-%m-%d %H:%M:%S')"
       
       - name: Push changes
+        if: success()
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
       
-      - name: Upload logs
+      - name: Upload logs and data
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -55,4 +78,4 @@ jobs:
           path: |
             job_scout.log
             data/
-          retention-days: 7
+          if-no-files-found: warn
