@@ -2,3 +2,27 @@ Traceback (most recent call last):
   File "/home/runner/work/job-scout-pipeline/job-scout-pipeline/src/job_scraper.py", line 15, in <module>
     from src.job_matcher import JobMatcher
 ModuleNotFoundError: No module named 'src'
+2026-05-19 15:36:24,173 - INFO - ============================================================
+2026-05-19 15:36:24,174 - INFO - Job Scout Pipeline Started
+2026-05-19 15:36:24,173 - INFO - ============================================================
+2026-05-19 15:36:24,174 - INFO - Job Scout Pipeline Started
+2026-05-19 15:36:24,174 - INFO - ============================================================
+2026-05-19 15:36:24,174 - INFO - ============================================================
+2026-05-19 15:36:24,174 - ERROR - Config file not found: config/companies.json
+2026-05-19 15:36:24,174 - ERROR - Config file not found: config/companies.json
+2026-05-19 15:36:24,174 - INFO - Starting scrape for 0 companies
+2026-05-19 15:36:24,174 - INFO - Starting scrape for 0 companies
+2026-05-19 15:36:24,174 - INFO - Total jobs found: 0
+2026-05-19 15:36:24,174 - INFO - Total jobs found: 0
+2026-05-19 15:36:24,174 - INFO - Matching 0 jobs against profile...
+2026-05-19 15:36:24,174 - INFO - Matching 0 jobs against profile...
+2026-05-19 15:36:24,174 - INFO - Found 0 matching jobs
+2026-05-19 15:36:24,174 - INFO - Found 0 matching jobs
+2026-05-19 15:36:24,174 - INFO - Job database updated: 0 new jobs, 0 total
+2026-05-19 15:36:24,174 - INFO - Job database updated: 0 new jobs, 0 total
+2026-05-19 15:36:24,174 - INFO - ============================================================
+2026-05-19 15:36:24,174 - INFO - ============================================================
+2026-05-19 15:36:24,174 - INFO - Job Scout Pipeline Completed
+2026-05-19 15:36:24,174 - INFO - Job Scout Pipeline Completed
+2026-05-19 15:36:24,175 - INFO - ============================================================
+2026-05-19 15:36:24,175 - INFO - ============================================================
