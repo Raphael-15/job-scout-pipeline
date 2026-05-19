@@ -1,0 +1,37 @@
+{
+  "skill_keywords": {
+    "python": ["python", "py", "django", "flask", "fastapi"],
+    "sql": ["sql", "mysql", "postgresql", "database", "query"],
+    "data_analysis": ["data analysis", "analytics", "analyst", "reporting", "insights"],
+    "data_science": ["data science", "machine learning", "ml", "ai", "deep learning"],
+    "visualization": ["tableau", "power bi", "visualization", "dashboard", "grafana"],
+    "energy": ["energy", "power", "renewables", "solar", "wind", "grid"],
+    "sustainability": ["sustainability", "environmental", "esg", "carbon", "green"],
+    "r_programming": ["r programming", "r language", "rstudio", "shiny"],
+    "excel": ["excel", "vba", "spreadsheet", "pivot table"],
+    "research": ["research", "analysis", "methodology", "hypothesis"],
+    "communication": ["communication", "presentation", "stakeholder", "reporting"],
+    "collaboration": ["collaboration", "team", "agile", "scrum", "cross-functional"]
+  },
+  "seniority_levels": {
+    "entry_level": ["entry-level", "junior", "graduate", "trainee", "intern"],
+    "internship": ["internship", "intern", "trainee", "apprentice"],
+    "early_career": ["early career", "early-career", "less than 2 years", "0-2 years"]
+  },
+  "location_keywords": {
+    "barcelona": ["barcelona", "bcn", "barcelona, spain"],
+    "spain": ["spain", "españa", "spanish"],
+    "remote": ["remote", "work from home", "wfh", "hybrid"]
+  },
+  "exclude_keywords": [
+    "senior",
+    "manager",
+    "director",
+    "principal",
+    "lead",
+    "architect",
+    "10+ years",
+    "15+ years",
+    "20+ years"
+  ]
+}
