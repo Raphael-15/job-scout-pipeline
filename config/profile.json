@@ -1,0 +1,56 @@
+{
+  "name": "Raphael Omonzokpia Demilade",
+  "location": "Barcelona, Spain",
+  "email": "raphaelomonzokpia1@gmail.com",
+  "phone": "+34 642 829 417",
+  "linkedin": "https://www.linkedin.com/in/raphael-omonzokpia/",
+  "github": "https://github.com/Raphael-15",
+  "portfolio": "https://raphaelomonzokpia1.wixsite.com/my-site-2",
+  "experience_years": 3,
+  "professional_summary": "Data and Engineering Analyst with 3+ years of experience in data analytics, research methods, and engineering principles across energy, sustainability, technology, and consulting environments.",
+  "technical_skills": {
+    "languages": ["SQL", "Python", "R", "GAMS", "HTML", "CSS"],
+    "frameworks": ["Pandas", "NumPy", "Scikit-Learn", "Matplotlib", "ggplot"],
+    "tools": ["Tableau", "Power BI", "MySQL", "OpenLCA", "TIMES", "AutoCAD", "Artec Studio", "HubSpot", "Jira"],
+    "platforms": ["Jupyter Notebook", "VS Code", "PyCharm", "Spyder", "R Studio"]
+  },
+  "domain_expertise": [
+    "Data Analysis",
+    "Energy Systems Analysis",
+    "Sustainability",
+    "Machine Learning",
+    "Data Visualization",
+    "KPI Development",
+    "AI Quality Evaluation",
+    "Life Cycle Assessment",
+    "Policy Analysis",
+    "Inventory Optimization"
+  ],
+  "soft_skills": [
+    "Analytical Problem-Solving",
+    "Technical Communication",
+    "Cross-Functional Collaboration",
+    "Critical Thinking",
+    "Stakeholder Engagement"
+  ],
+  "job_titles_target": [
+    "Data Analyst",
+    "Junior Data Analyst",
+    "Data Scientist",
+    "Junior Data Scientist",
+    "Energy Analyst",
+    "Sustainability Analyst",
+    "Research Analyst",
+    "AI Quality Analyst",
+    "Graduate Data Analyst",
+    "Data Engineer",
+    "Business Analyst"
+  ],
+  "job_types": ["Internship", "Entry-level", "Graduate", "Junior"],
+  "location_priority": ["Barcelona", "Spain"],
+  "education": {
+    "masters": "Master's Degree in Energy Engineering - Universitat Politècnica de Catalunya (UPC), Barcelona, Spain (In View 2026)",
+    "bachelors": "Bachelor's Degree in Electrical and Electronics Engineering - Federal University of Agriculture Abeokuta, Nigeria (2021)"
+  },
+  "languages": ["English (Fluent)", "Yoruba (Fluent)", "Spanish (Beginner)"]
+}
