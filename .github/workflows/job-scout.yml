@@ -5,6 +5,10 @@ on:
     - cron: '0 */6 * * *'  # Runs every 6 hours
   workflow_dispatch:  # Allow manual trigger
 
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   job_scout:
     runs-on: ubuntu-latest
@@ -59,16 +63,14 @@ jobs:
         if: success()
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "Job Scout Bot"
+          git config --local user.name "GitHub Actions"
           git add -A
           git diff --quiet && git diff --staged --quiet || git commit -m "Update job database - $(date '+%Y-%m-%d %H:%M:%S')"
       
       - name: Push changes
         if: success()
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+        run: |
+          git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
       
       - name: Upload logs and data
         if: always()
