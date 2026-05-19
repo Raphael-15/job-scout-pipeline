@@ -12,8 +12,8 @@ from datetime import datetime
 from typing import List, Dict
 import requests
 from bs4 import BeautifulSoup
-from src.job_matcher import JobMatcher
-from src.email_notifier import EmailNotifier
+from job_matcher import JobMatcher
+from email_notifier import EmailNotifier
 
 # Set up logging
 logging.basicConfig(
