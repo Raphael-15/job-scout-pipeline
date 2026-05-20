@@ -710,3 +710,543 @@ ModuleNotFoundError: No module named 'src'
 2026-05-20 11:04:27,918 - INFO - Job Scout Pipeline Completed
 2026-05-20 11:04:27,918 - INFO - ============================================================
 2026-05-20 11:04:27,918 - INFO - ============================================================
+2026-05-20 15:36:12,422 - INFO - ============================================================
+2026-05-20 15:36:12,422 - INFO - Job Scout Pipeline Started
+2026-05-20 15:36:12,422 - INFO - ============================================================
+2026-05-20 15:36:12,422 - INFO - Job Scout Pipeline Started
+2026-05-20 15:36:12,422 - INFO - ============================================================
+2026-05-20 15:36:12,422 - INFO - ============================================================
+2026-05-20 15:36:12,423 - INFO - Starting scrape for 50 companies
+2026-05-20 15:36:12,423 - INFO - Starting scrape for 50 companies
+2026-05-20 15:36:12,423 - INFO - Scraping Revolut...
+2026-05-20 15:36:12,423 - INFO - Scraping Revolut...
+2026-05-20 15:36:12,971 - INFO - Scraping Schneider Electric...
+2026-05-20 15:36:12,971 - INFO - Scraping Schneider Electric...
+2026-05-20 15:36:13,046 - WARNING - Network error for Schneider Electric: HTTPSConnectionPool(host='careers.schneider-electric.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='careers.schneider-electric.com', port=443): Failed to resolve 'careers.schneider-electric.com' ([Errno -2] Name or service not known)"))
+2026-05-20 15:36:13,046 - WARNING - Network error for Schneider Electric: HTTPSConnectionPool(host='careers.schneider-electric.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='careers.schneider-electric.com', port=443): Failed to resolve 'careers.schneider-electric.com' ([Errno -2] Name or service not known)"))
+2026-05-20 15:36:13,046 - INFO - Scraping Eiffage Energía...
+2026-05-20 15:36:13,046 - INFO - Scraping Eiffage Energía...
+2026-05-20 15:36:13,678 - WARNING - Network error for Eiffage Energía: 404 Client Error: Not Found for url: https://www.eiffage.com/es/careers
+2026-05-20 15:36:13,678 - WARNING - Network error for Eiffage Energía: 404 Client Error: Not Found for url: https://www.eiffage.com/es/careers
+2026-05-20 15:36:13,679 - INFO - Scraping Mecalux...
+2026-05-20 15:36:13,679 - INFO - Scraping Mecalux...
+2026-05-20 15:36:15,388 - WARNING - Network error for Mecalux: 404 Client Error: 404 for url: https://www.mecalux.es/careers
+2026-05-20 15:36:15,388 - WARNING - Network error for Mecalux: 404 Client Error: 404 for url: https://www.mecalux.es/careers
+2026-05-20 15:36:15,389 - INFO - Scraping Dragados...
+2026-05-20 15:36:15,389 - INFO - Scraping Dragados...
+2026-05-20 15:36:16,076 - WARNING - Network error for Dragados: 404 Client Error: Not Found for url: https://www.dragados.com/es/careers
+2026-05-20 15:36:16,076 - WARNING - Network error for Dragados: 404 Client Error: Not Found for url: https://www.dragados.com/es/careers
+2026-05-20 15:36:16,077 - INFO - Scraping Thermo King...
+2026-05-20 15:36:16,077 - INFO - Scraping Thermo King...
+2026-05-20 15:36:16,361 - INFO - Scraping Oliver Wyman...
+2026-05-20 15:36:16,361 - INFO - Scraping Oliver Wyman...
+2026-05-20 15:36:17,562 - INFO - Scraping Nexus Energía...
+2026-05-20 15:36:17,562 - INFO - Scraping Nexus Energía...
+2026-05-20 15:36:17,622 - WARNING - Network error for Nexus Energía: HTTPSConnectionPool(host='www.nexus-energia.com', port=443): Max retries exceeded with url: /careers (Caused by NameResolutionError("HTTPSConnection(host='www.nexus-energia.com', port=443): Failed to resolve 'www.nexus-energia.com' ([Errno -2] Name or service not known)"))
+2026-05-20 15:36:17,622 - WARNING - Network error for Nexus Energía: HTTPSConnectionPool(host='www.nexus-energia.com', port=443): Max retries exceeded with url: /careers (Caused by NameResolutionError("HTTPSConnection(host='www.nexus-energia.com', port=443): Failed to resolve 'www.nexus-energia.com' ([Errno -2] Name or service not known)"))
+2026-05-20 15:36:17,622 - INFO - Scraping ENGIE...
+2026-05-20 15:36:17,622 - INFO - Scraping ENGIE...
+2026-05-20 15:36:19,764 - WARNING - Network error for ENGIE: 404 Client Error: Not Found for url: https://www.engie.com/careers
+2026-05-20 15:36:19,764 - WARNING - Network error for ENGIE: 404 Client Error: Not Found for url: https://www.engie.com/careers
+2026-05-20 15:36:19,765 - INFO - Scraping Danone...
+2026-05-20 15:36:19,765 - INFO - Scraping Danone...
+2026-05-20 15:36:20,600 - INFO - Scraping Sorigué...
+2026-05-20 15:36:20,600 - INFO - Scraping Sorigué...
+2026-05-20 15:36:22,131 - WARNING - Network error for Sorigué: 404 Client Error: Not Found for url: https://www.sorigue.com/es/careers
+2026-05-20 15:36:22,131 - WARNING - Network error for Sorigué: 404 Client Error: Not Found for url: https://www.sorigue.com/es/careers
+2026-05-20 15:36:22,132 - INFO - Scraping SDG Group...
+2026-05-20 15:36:22,132 - INFO - Scraping SDG Group...
+2026-05-20 15:36:24,078 - INFO - Scraping KPMG Spain...
+2026-05-20 15:36:24,078 - INFO - Scraping KPMG Spain...
+2026-05-20 15:36:24,327 - WARNING - Network error for KPMG Spain: HTTPSConnectionPool(host='careers.kpmg.es', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='careers.kpmg.es', port=443): Failed to resolve 'careers.kpmg.es' ([Errno -2] Name or service not known)"))
+2026-05-20 15:36:24,327 - WARNING - Network error for KPMG Spain: HTTPSConnectionPool(host='careers.kpmg.es', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='careers.kpmg.es', port=443): Failed to resolve 'careers.kpmg.es' ([Errno -2] Name or service not known)"))
+2026-05-20 15:36:24,327 - INFO - Scraping NTT Data...
+2026-05-20 15:36:24,327 - INFO - Scraping NTT Data...
+2026-05-20 15:36:25,539 - WARNING - Network error for NTT Data: 404 Client Error: Not Found for url: https://www.nttdata.com/global/en/404
+2026-05-20 15:36:25,539 - WARNING - Network error for NTT Data: 404 Client Error: Not Found for url: https://www.nttdata.com/global/en/404
+2026-05-20 15:36:25,541 - INFO - Scraping HP Spain...
+2026-05-20 15:36:25,541 - INFO - Scraping HP Spain...
+2026-05-20 15:36:25,585 - WARNING - Network error for HP Spain: HTTPSConnectionPool(host='careers.hp.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='careers.hp.com', port=443): Failed to resolve 'careers.hp.com' ([Errno -5] No address associated with hostname)"))
+2026-05-20 15:36:25,585 - WARNING - Network error for HP Spain: HTTPSConnectionPool(host='careers.hp.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='careers.hp.com', port=443): Failed to resolve 'careers.hp.com' ([Errno -5] No address associated with hostname)"))
+2026-05-20 15:36:25,585 - INFO - Scraping Deloitte Spain...
+2026-05-20 15:36:25,585 - INFO - Scraping Deloitte Spain...
+2026-05-20 15:36:26,288 - INFO - Scraping PwC Spain...
+2026-05-20 15:36:26,288 - INFO - Scraping PwC Spain...
+2026-05-20 15:36:27,935 - WARNING - Network error for PwC Spain: 404 Client Error: Not Found for url: https://www.pwc.es/careers
+2026-05-20 15:36:27,935 - WARNING - Network error for PwC Spain: 404 Client Error: Not Found for url: https://www.pwc.es/careers
+2026-05-20 15:36:27,937 - INFO - Scraping Accenture Spain...
+2026-05-20 15:36:27,937 - INFO - Scraping Accenture Spain...
+2026-05-20 15:36:28,123 - INFO - Scraping Boston Consulting Group...
+2026-05-20 15:36:28,123 - INFO - Scraping Boston Consulting Group...
+2026-05-20 15:36:28,302 - WARNING - Network error for Boston Consulting Group: 403 Client Error: Forbidden for url: https://www.bcg.com/careers
+2026-05-20 15:36:28,302 - WARNING - Network error for Boston Consulting Group: 403 Client Error: Forbidden for url: https://www.bcg.com/careers
+2026-05-20 15:36:28,303 - INFO - Scraping IDOM...
+2026-05-20 15:36:28,303 - INFO - Scraping IDOM...
+2026-05-20 15:36:30,890 - INFO - Scraping RDT Engineers...
+2026-05-20 15:36:30,890 - INFO - Scraping RDT Engineers...
+2026-05-20 15:36:32,901 - INFO - Scraping Technip Energies...
+2026-05-20 15:36:32,901 - INFO - Scraping Technip Energies...
+2026-05-20 15:36:34,105 - INFO - Scraping COMSA...
+2026-05-20 15:36:34,105 - INFO - Scraping COMSA...
+2026-05-20 15:36:34,257 - WARNING - Network error for COMSA: 403 Client Error: Forbidden for url: https://www.comsa.com/careers
+2026-05-20 15:36:34,257 - WARNING - Network error for COMSA: 403 Client Error: Forbidden for url: https://www.comsa.com/careers
+2026-05-20 15:36:34,258 - INFO - Scraping Valmet...
+2026-05-20 15:36:34,258 - INFO - Scraping Valmet...
+2026-05-20 15:36:35,607 - INFO - Scraping CELSA Group...
+2026-05-20 15:36:35,607 - INFO - Scraping CELSA Group...
+2026-05-20 15:36:36,464 - WARNING - Network error for CELSA Group: 403 Client Error: Forbidden for url: https://www.celsagroup.com/careers
+2026-05-20 15:36:36,464 - WARNING - Network error for CELSA Group: 403 Client Error: Forbidden for url: https://www.celsagroup.com/careers
+2026-05-20 15:36:36,466 - INFO - Scraping Elecnor...
+2026-05-20 15:36:36,466 - INFO - Scraping Elecnor...
+2026-05-20 15:36:37,164 - WARNING - Network error for Elecnor: 404 Client Error: Not Found for url: https://www.elecnor.com/careers
+2026-05-20 15:36:37,164 - WARNING - Network error for Elecnor: 404 Client Error: Not Found for url: https://www.elecnor.com/careers
+2026-05-20 15:36:37,166 - INFO - Scraping Ingerop...
+2026-05-20 15:36:37,166 - INFO - Scraping Ingerop...
+2026-05-20 15:36:39,351 - WARNING - Network error for Ingerop: 404 Client Error: Not Found for url: https://www.ingerop.com/careers
+2026-05-20 15:36:39,351 - WARNING - Network error for Ingerop: 404 Client Error: Not Found for url: https://www.ingerop.com/careers
+2026-05-20 15:36:39,352 - INFO - Scraping VINCI...
+2026-05-20 15:36:39,352 - INFO - Scraping VINCI...
+2026-05-20 15:36:39,847 - WARNING - Network error for VINCI: 418 Client Error: I'm a teapot for url: https://www.vinci.com/careers
+2026-05-20 15:36:39,847 - WARNING - Network error for VINCI: 418 Client Error: I'm a teapot for url: https://www.vinci.com/careers
+2026-05-20 15:36:39,848 - INFO - Scraping Copisa...
+2026-05-20 15:36:39,848 - INFO - Scraping Copisa...
+2026-05-20 15:36:41,130 - WARNING - Network error for Copisa: 404 Client Error: Not Found for url: https://copisa.com/careers
+2026-05-20 15:36:41,130 - WARNING - Network error for Copisa: 404 Client Error: Not Found for url: https://copisa.com/careers
+2026-05-20 15:36:41,132 - INFO - Scraping TYPSA...
+2026-05-20 15:36:41,132 - INFO - Scraping TYPSA...
+2026-05-20 15:36:42,160 - INFO - Scraping Veolia Spain...
+2026-05-20 15:36:42,160 - INFO - Scraping Veolia Spain...
+2026-05-20 15:36:43,073 - WARNING - Network error for Veolia Spain: 404 Client Error: Not Found for url: https://www.veolia.com/careers
+2026-05-20 15:36:43,073 - WARNING - Network error for Veolia Spain: 404 Client Error: Not Found for url: https://www.veolia.com/careers
+2026-05-20 15:36:43,074 - INFO - Scraping Fichtner...
+2026-05-20 15:36:43,074 - INFO - Scraping Fichtner...
+2026-05-20 15:36:53,358 - WARNING - Network error for Fichtner: HTTPSConnectionPool(host='www.fichtner.com', port=443): Max retries exceeded with url: /careers (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.fichtner.com', port=443) at 0x7fe585ed6ad0>, 'Connection to www.fichtner.com timed out. (connect timeout=10)'))
+2026-05-20 15:36:53,358 - INFO - Scraping ProZero...
+2026-05-20 15:36:53,358 - WARNING - Network error for Fichtner: HTTPSConnectionPool(host='www.fichtner.com', port=443): Max retries exceeded with url: /careers (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.fichtner.com', port=443) at 0x7fe585ed6ad0>, 'Connection to www.fichtner.com timed out. (connect timeout=10)'))
+2026-05-20 15:36:53,358 - INFO - Scraping ProZero...
+2026-05-20 15:36:53,830 - WARNING - Network error for ProZero: HTTPSConnectionPool(host='www.prozero.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.prozero.com'. (_ssl.c:1016)")))
+2026-05-20 15:36:53,830 - WARNING - Network error for ProZero: HTTPSConnectionPool(host='www.prozero.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.prozero.com'. (_ssl.c:1016)")))
+2026-05-20 15:36:53,830 - INFO - Scraping Avesa...
+2026-05-20 15:36:53,830 - INFO - Scraping Avesa...
+2026-05-20 15:36:54,455 - WARNING - Network error for Avesa: 404 Client Error: Not Found for url: https://www.avesa.es/page-not-found
+2026-05-20 15:36:54,455 - WARNING - Network error for Avesa: 404 Client Error: Not Found for url: https://www.avesa.es/page-not-found
+2026-05-20 15:36:54,456 - INFO - Scraping Applus IDIADA...
+2026-05-20 15:36:54,456 - INFO - Scraping Applus IDIADA...
+2026-05-20 15:36:55,871 - WARNING - Network error for Applus IDIADA: 404 Client Error:  for url: https://www.applusidiada.com/careers
+2026-05-20 15:36:55,871 - WARNING - Network error for Applus IDIADA: 404 Client Error:  for url: https://www.applusidiada.com/careers
+2026-05-20 15:36:55,874 - INFO - Scraping ABB Spain...
+2026-05-20 15:36:55,874 - INFO - Scraping ABB Spain...
+2026-05-20 15:36:55,897 - WARNING - Network error for ABB Spain: HTTPSConnectionPool(host='careers.abb.com', port=443): Max retries exceeded with url: /es-es (Caused by NameResolutionError("HTTPSConnection(host='careers.abb.com', port=443): Failed to resolve 'careers.abb.com' ([Errno -2] Name or service not known)"))
+2026-05-20 15:36:55,897 - WARNING - Network error for ABB Spain: HTTPSConnectionPool(host='careers.abb.com', port=443): Max retries exceeded with url: /es-es (Caused by NameResolutionError("HTTPSConnection(host='careers.abb.com', port=443): Failed to resolve 'careers.abb.com' ([Errno -2] Name or service not known)"))
+2026-05-20 15:36:55,897 - INFO - Scraping Henkel Spain...
+2026-05-20 15:36:55,897 - INFO - Scraping Henkel Spain...
+2026-05-20 15:36:56,861 - INFO - Scraping B. Braun...
+2026-05-20 15:36:56,861 - INFO - Scraping B. Braun...
+2026-05-20 15:36:57,961 - WARNING - Network error for B. Braun: 404 Client Error: Not Found for url: https://www.bbraun.com/careers.html
+2026-05-20 15:36:57,961 - WARNING - Network error for B. Braun: 404 Client Error: Not Found for url: https://www.bbraun.com/careers.html
+2026-05-20 15:36:57,963 - INFO - Scraping Unex...
+2026-05-20 15:36:57,963 - INFO - Scraping Unex...
+2026-05-20 15:36:58,578 - INFO - Scraping Banco Sabadell...
+2026-05-20 15:36:58,578 - INFO - Scraping Banco Sabadell...
+2026-05-20 15:36:59,097 - WARNING - Network error for Banco Sabadell: 404 Client Error: Not Found for url: https://www.bancsabadell.com/careers
+2026-05-20 15:36:59,097 - WARNING - Network error for Banco Sabadell: 404 Client Error: Not Found for url: https://www.bancsabadell.com/careers
+2026-05-20 15:36:59,098 - INFO - Scraping Caixa Enginyers...
+2026-05-20 15:36:59,098 - INFO - Scraping Caixa Enginyers...
+2026-05-20 15:37:00,081 - WARNING - Network error for Caixa Enginyers: 404 Client Error: 404 for url: https://www.caixaenginyers.com/careers
+2026-05-20 15:37:00,081 - WARNING - Network error for Caixa Enginyers: 404 Client Error: 404 for url: https://www.caixaenginyers.com/careers
+2026-05-20 15:37:00,082 - INFO - Scraping TGW Logistics...
+2026-05-20 15:37:00,082 - INFO - Scraping TGW Logistics...
+2026-05-20 15:37:04,575 - INFO - Scraping Elis Spain...
+2026-05-20 15:37:04,575 - INFO - Scraping Elis Spain...
+2026-05-20 15:37:06,670 - INFO - Scraping BonÀrea...
+2026-05-20 15:37:06,670 - INFO - Scraping BonÀrea...
+2026-05-20 15:37:08,131 - INFO - Scraping VICIO...
+2026-05-20 15:37:08,131 - INFO - Scraping VICIO...
+2026-05-20 15:37:08,915 - INFO - Scraping Red Bull...
+2026-05-20 15:37:08,915 - INFO - Scraping Red Bull...
+2026-05-20 15:37:09,362 - WARNING - Network error for Red Bull: 403 Client Error: Forbidden for url: https://www.redbull.com/careers
+2026-05-20 15:37:09,362 - WARNING - Network error for Red Bull: 403 Client Error: Forbidden for url: https://www.redbull.com/careers
+2026-05-20 15:37:09,362 - INFO - Scraping Eurecat...
+2026-05-20 15:37:09,362 - INFO - Scraping Eurecat...
+2026-05-20 15:37:14,541 - WARNING - Network error for Eurecat: 404 Client Error: Not Found for url: https://eurecat.org/careers
+2026-05-20 15:37:14,541 - WARNING - Network error for Eurecat: 404 Client Error: Not Found for url: https://eurecat.org/careers
+2026-05-20 15:37:14,543 - INFO - Scraping Minsait...
+2026-05-20 15:37:14,543 - INFO - Scraping Minsait...
+2026-05-20 15:37:15,278 - INFO - Scraping Bertrandt...
+2026-05-20 15:37:15,278 - INFO - Scraping Bertrandt...
+2026-05-20 15:37:16,009 - WARNING - Network error for Bertrandt: 404 Client Error: Not Found for url: https://www.bertrandt.com/careers
+2026-05-20 15:37:16,009 - WARNING - Network error for Bertrandt: 404 Client Error: Not Found for url: https://www.bertrandt.com/careers
+2026-05-20 15:37:16,011 - INFO - Scraping Simon...
+2026-05-20 15:37:16,011 - INFO - Scraping Simon...
+2026-05-20 15:37:16,549 - INFO - Total jobs found: 88
+2026-05-20 15:37:16,549 - INFO - Matching 88 jobs against profile...
+2026-05-20 15:37:16,549 - INFO - Total jobs found: 88
+2026-05-20 15:37:16,549 - INFO - Matching 88 jobs against profile...
+2026-05-20 15:37:16,549 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,549 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,549 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,549 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,549 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,549 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Revolut (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Jump with us! @ SDG Group (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Jump with us! @ SDG Group (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ SDG Group (42.608695652173914%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ SDG Group (42.608695652173914%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Blockchain & Digital Assets @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Blockchain & Digital Assets @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Blockchain & Digital Assets @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Blockchain & Digital Assets @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Blockchain & Digital Assets @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Blockchain & Digital Assets @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Blockchain & Digital Assets @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,550 - INFO - Match found: Blockchain & Digital Assets @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Early careers @ Deloitte Spain (41.30434782608695%)
+2026-05-20 15:37:16,551 - INFO - Match found: Early careers @ Deloitte Spain (41.30434782608695%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Experienced professionals @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Experienced professionals @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Life at Deloitte @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Life at Deloitte @ Deloitte Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Accenture Spain (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,551 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (32.608695652173914%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (32.608695652173914%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Technip Energies (31.304347826086957%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Valmet (26.0%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Valmet (26.0%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Valmet (26.0%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Valmet (26.0%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Valmet (26.0%)
+2026-05-20 15:37:16,552 - INFO - Match found: Unknown @ Valmet (26.0%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Job offers @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Job offers @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (41.30434782608695%)
+2026-05-20 15:37:16,553 - INFO - Match found: Unknown @ Elis Spain (41.30434782608695%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (41.30434782608695%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (41.30434782608695%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (41.30434782608695%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (41.30434782608695%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ Elis Spain (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ BonÀrea (21.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Unknown @ BonÀrea (21.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Hazte de @ BonÀrea (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Match found: Hazte de @ BonÀrea (31.304347826086957%)
+2026-05-20 15:37:16,554 - INFO - Found 88 matching jobs
+2026-05-20 15:37:16,554 - INFO - Found 88 matching jobs
+2026-05-20 15:37:16,554 - INFO - Sending email notifications...
+2026-05-20 15:37:16,554 - INFO - Sending email notifications...
+2026-05-20 15:37:16,554 - INFO - 📧 Sending notifications for 88 matching jobs
+2026-05-20 15:37:16,554 - INFO - 📧 Sending notifications for 88 matching jobs
+2026-05-20 15:37:18,652 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:18,652 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:19,957 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:19,957 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:21,302 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:21,302 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:22,451 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:22,451 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:23,557 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:23,557 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:24,753 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:24,753 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:26,743 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:26,743 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:27,958 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:27,958 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:29,138 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:29,138 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:30,314 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:30,314 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:32,443 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:32,443 - INFO - ✅ Email sent for: Unknown @ Revolut
+2026-05-20 15:37:33,496 - INFO - ✅ Email sent for: Jump with us! @ SDG Group
+2026-05-20 15:37:33,496 - INFO - ✅ Email sent for: Jump with us! @ SDG Group
+2026-05-20 15:37:34,630 - INFO - ✅ Email sent for: Unknown @ SDG Group
+2026-05-20 15:37:34,630 - INFO - ✅ Email sent for: Unknown @ SDG Group
+2026-05-20 15:37:36,003 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:36,003 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:37,136 - INFO - ✅ Email sent for: Blockchain & Digital Assets @ Deloitte Spain
+2026-05-20 15:37:37,136 - INFO - ✅ Email sent for: Blockchain & Digital Assets @ Deloitte Spain
+2026-05-20 15:37:38,355 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:38,355 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:39,402 - INFO - ✅ Email sent for: Blockchain & Digital Assets @ Deloitte Spain
+2026-05-20 15:37:39,402 - INFO - ✅ Email sent for: Blockchain & Digital Assets @ Deloitte Spain
+2026-05-20 15:37:40,817 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:40,817 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:42,710 - INFO - ✅ Email sent for: Blockchain & Digital Assets @ Deloitte Spain
+2026-05-20 15:37:42,710 - INFO - ✅ Email sent for: Blockchain & Digital Assets @ Deloitte Spain
+2026-05-20 15:37:45,426 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:45,426 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:46,851 - INFO - ✅ Email sent for: Blockchain & Digital Assets @ Deloitte Spain
+2026-05-20 15:37:46,851 - INFO - ✅ Email sent for: Blockchain & Digital Assets @ Deloitte Spain
+2026-05-20 15:37:48,814 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:48,814 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:50,030 - INFO - ✅ Email sent for: Early careers @ Deloitte Spain
+2026-05-20 15:37:50,030 - INFO - ✅ Email sent for: Early careers @ Deloitte Spain
+2026-05-20 15:37:51,343 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:51,343 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:52,499 - INFO - ✅ Email sent for: Experienced professionals @ Deloitte Spain
+2026-05-20 15:37:52,499 - INFO - ✅ Email sent for: Experienced professionals @ Deloitte Spain
+2026-05-20 15:37:53,993 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:53,993 - INFO - ✅ Email sent for: Unknown @ Deloitte Spain
+2026-05-20 15:37:55,180 - INFO - ✅ Email sent for: Life at Deloitte @ Deloitte Spain
+2026-05-20 15:37:55,180 - INFO - ✅ Email sent for: Life at Deloitte @ Deloitte Spain
+2026-05-20 15:37:56,373 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:37:56,373 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:37:57,793 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:37:57,793 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:37:59,117 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:37:59,117 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:38:00,436 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:38:00,436 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:38:01,834 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:38:01,834 - INFO - ✅ Email sent for: Unknown @ Accenture Spain
+2026-05-20 15:38:03,113 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:03,113 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:04,181 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:04,181 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:05,469 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:05,469 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:06,840 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:06,840 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:08,424 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:08,424 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:09,686 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:09,686 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:11,644 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:11,644 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:13,228 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:13,228 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:14,613 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:14,613 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:16,082 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:16,082 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:17,574 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:17,574 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:18,687 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:18,687 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:20,294 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:20,294 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:21,715 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:21,715 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:23,186 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:23,186 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:24,544 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:24,544 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:25,722 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:25,722 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:27,064 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:27,064 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:28,415 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:28,415 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:29,823 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:29,823 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:31,319 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:31,319 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:32,688 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:32,688 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:33,970 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:33,970 - INFO - ✅ Email sent for: Unknown @ Technip Energies
+2026-05-20 15:38:35,331 - INFO - ✅ Email sent for: Unknown @ Valmet
+2026-05-20 15:38:35,331 - INFO - ✅ Email sent for: Unknown @ Valmet
+2026-05-20 15:38:36,818 - INFO - ✅ Email sent for: Unknown @ Valmet
+2026-05-20 15:38:36,818 - INFO - ✅ Email sent for: Unknown @ Valmet
+2026-05-20 15:38:37,942 - INFO - ✅ Email sent for: Unknown @ Valmet
+2026-05-20 15:38:37,942 - INFO - ✅ Email sent for: Unknown @ Valmet
+2026-05-20 15:38:39,093 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:39,093 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:40,209 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:40,209 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:41,379 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:41,379 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:42,489 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:42,489 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:43,781 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:43,781 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:45,289 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:45,289 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:46,436 - INFO - ✅ Email sent for: Job offers @ Elis Spain
+2026-05-20 15:38:46,436 - INFO - ✅ Email sent for: Job offers @ Elis Spain
+2026-05-20 15:38:48,343 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:48,343 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:49,703 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:49,703 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:50,910 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:50,910 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:52,027 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:52,027 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:53,171 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:53,171 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:54,347 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:54,347 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:55,487 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:55,487 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:56,607 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:56,607 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:57,824 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:57,824 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:59,700 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:38:59,700 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:00,819 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:00,819 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:02,183 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:02,183 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:03,534 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:03,534 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:04,757 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:04,757 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:05,862 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:05,862 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:07,031 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:07,031 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:08,206 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:08,206 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:09,329 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:09,329 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:10,479 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:10,479 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:11,604 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:11,604 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:12,699 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:12,699 - INFO - ✅ Email sent for: Unknown @ Elis Spain
+2026-05-20 15:39:13,848 - INFO - ✅ Email sent for: Unknown @ BonÀrea
+2026-05-20 15:39:13,848 - INFO - ✅ Email sent for: Unknown @ BonÀrea
+2026-05-20 15:39:15,778 - INFO - ✅ Email sent for: Hazte de @ BonÀrea
+2026-05-20 15:39:15,778 - INFO - ✅ Sent 88/88 notifications
+2026-05-20 15:39:15,778 - INFO - ✅ Email sent for: Hazte de @ BonÀrea
+2026-05-20 15:39:15,778 - INFO - ✅ Sent 88/88 notifications
+2026-05-20 15:39:15,780 - INFO - Job database updated: 88 new jobs, 176 total
+2026-05-20 15:39:15,780 - INFO - Job database updated: 88 new jobs, 176 total
+2026-05-20 15:39:15,780 - INFO - ============================================================
+2026-05-20 15:39:15,780 - INFO - Job Scout Pipeline Completed
+2026-05-20 15:39:15,780 - INFO - ============================================================
+2026-05-20 15:39:15,780 - INFO - Job Scout Pipeline Completed
+2026-05-20 15:39:15,780 - INFO - ============================================================
+2026-05-20 15:39:15,780 - INFO - ============================================================
